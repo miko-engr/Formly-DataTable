@@ -22,6 +22,7 @@
     "@ngx-formly/bootstrap": "^5.0.0",
     "@ngx-formly/core": "^5.0.0",
     "@ngx-formly/schematics": "^5.10.13",
+    "@swimlane/ngx-datatable": "^19.0.0",
     "bootstrap": "^4.6.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",

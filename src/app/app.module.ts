@@ -6,11 +6,15 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormlyModule } from '@ngx-formly/core';
 import { FormlyBootstrapModule } from '@ngx-formly/bootstrap';
 
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
+    NgxDatatableModule,
     BrowserModule,
     ReactiveFormsModule,
     FormlyModule.forRoot({ extras: { lazyRender: true } }),
